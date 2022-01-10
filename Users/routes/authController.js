@@ -55,8 +55,8 @@ passport.deserializeUser(function(obj, cb) {
 
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const { reset } = require('nodemon');
-const GOOGLE_CLIENT_ID = '762002577524-nrkq5e8pv526bvb4nr1ljh855htmg78h.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = 'qTAzJA88qgVhiHJHu-e_QEgR';
+const GOOGLE_CLIENT_ID = '243526737958-40q2arrbing1pkaj2bolehsrvet5v5fr.apps.googleusercontent.com';
+const GOOGLE_CLIENT_SECRET = 'JMOPfyZOm2euv4Su60aEabKo';
 
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
