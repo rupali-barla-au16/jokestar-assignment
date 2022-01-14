@@ -1,14 +1,14 @@
 {
-  "name": "basic_user_system",
+  "name": "",
   "version": "1.0.0",
-  "description": "In this project, we are going to create an application to manage all the registered user.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server/server.js",
     "dev": "nodemon ./server/server.js"
   },
-  "author": "Gaurav Deore, Rohit Ku Bilung",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
