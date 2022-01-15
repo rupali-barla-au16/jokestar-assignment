@@ -1,5 +1,5 @@
 module.exports={
-    'secret':'BE@admin',
+    // 'secret':'ruppu',
     'user' : 'barlarupali31@gmail.com',
-    'password' : 'W0Ft3UBuMpzApvh8'
+    'password' : 'iebzjnkqceivhgtg'
 }

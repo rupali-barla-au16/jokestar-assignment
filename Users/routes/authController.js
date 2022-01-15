@@ -55,13 +55,13 @@ passport.deserializeUser(function(obj, cb) {
 
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const { reset } = require('nodemon');
-const GOOGLE_CLIENT_ID = '243526737958-40q2arrbing1pkaj2bolehsrvet5v5fr.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = 'JMOPfyZOm2euv4Su60aEabKo';
+const GOOGLE_CLIENT_ID = '717441440182-rionervgqhbhp8243m442dq5io4bmu79.apps.googleusercontent.com';
+const GOOGLE_CLIENT_SECRET = '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';
 
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:5678/api/google/callback"
+    callbackURL: "http://localhost:5000/api/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
       userProfile=profile;
